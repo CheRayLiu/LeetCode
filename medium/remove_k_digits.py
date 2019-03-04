@@ -22,7 +22,7 @@ class Solution(object):
                 k-=1
             stack.append(digit)
         
-        while k > 0:
+        while k > 0: #Corner case such as "223"
             stack.pop()
             k -= 1
         return ''.join(stack).lstrip('0') or "0"
