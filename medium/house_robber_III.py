@@ -5,7 +5,7 @@ the smart thief realized that "all houses in this place forms a binary tree".
 It will automatically contact the police if two directly-linked houses were broken into on the same night.
 
 Time: O(N)
-Space: O
+Space: O(N)
 """
 class Solution(object):
     def rob(self, root):
